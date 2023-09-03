@@ -2,9 +2,9 @@
 <idea-plugin>
     <id>de.mischmaschine.PasteIt</id>
     <name>PasteIt</name>
-    <vendor email="support@tropicalwave.de" url="https://www.yourcompany.com">TropicalWave</vendor>
+    <vendor email="support@tropicalwave.de" url="https://tropicalwave.de">TropicalWave</vendor>
     <description>
-        <![CDATA[asdasasddasasdasdasdsadasdadsasdasdasdasdsdaasdasdasdasdasdasdasdasdasdasdadsasdadssadd.<br/>]]></description>
+        <![CDATA[This plugin provides an effortless way to upload code snippets to a predefined server and copy the resulting unique key to your clipboard for easy sharing and retrieval./>]]></description>
 
     <actions>
         <action id="PasteIt" class="de.mischmaschine.pasteit.PasteItAction" text="Paste It">
