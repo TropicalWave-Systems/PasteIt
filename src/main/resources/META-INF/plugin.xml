@@ -1,0 +1,21 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>de.mischmaschine.PasteIt</id>
+    <name>PasteIt</name>
+    <vendor email="support@tropicalwave.de" url="https://www.yourcompany.com">TropicalWave</vendor>
+    <description>
+        <![CDATA[asdasasddasasdasdasdsadasdadsasdasdasdasdsdaasdasdasdasdasdasdasdasdasdasdadsasdadssadd.<br/>]]></description>
+
+    <actions>
+        <action id="PasteIt" class="de.mischmaschine.pasteit.PasteItAction" text="Paste It">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <notificationGroup id="PasteIt" displayType="BALLOON"/>
+    </extensions>
+
+
+</idea-plugin>
